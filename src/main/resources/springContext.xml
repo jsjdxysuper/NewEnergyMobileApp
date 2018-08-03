@@ -10,7 +10,7 @@ http://www.springframework.org/schema/mvc http://www.springframework.org/schema/
 default-lazy-init="true">
     
 	<!-- 搜索spring控件 -->
-	<context:component-scan base-package="com.kedong.test"></context:component-scan>
+	<context:component-scan base-package="com.kedong"></context:component-scan>
 	<!-- 视图页面配置 -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
